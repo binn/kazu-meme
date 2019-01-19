@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dfdcbdd5;
+    background: #253041;
+}
+
+.home {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home hr {
+    max-width: 50%;
+}
+
+.home p {
+    margin: auto;
+}
+
+.home h1 {
+    margin: auto;
+}
+
+.kazu-being-gay-grid {
+    margin: 0 auto;
+    max-width: 60%;
+    ;
+}
+
+.kazu-being-gay-grid .gay-content {
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.kazu-being-gay-grid img {
+    padding: 2px;
+    background-color: #374a68;
+    border-radius: 10px;
+    margin: 30px;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+    box-shadow: 0 0 5rem #100e17;
+}
