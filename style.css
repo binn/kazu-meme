@@ -36,7 +36,20 @@ body {
     padding: 2px;
     background-color: #374a68;
     border-radius: 10px;
-    margin: 30px;
+    margin: 10px;
     -webkit-box-shadow: 0 0 5rem #100e17;
     box-shadow: 0 0 5rem #100e17;
+}
+
+footer {
+    text-align: center;
+}
+
+footer hr {
+    background: #dfdcbdd5;
+    width: 60%;
+}
+
+footer a {
+    color: aqua;
 }
